@@ -2,7 +2,7 @@ import './App.css';
 import Header from './Components/Header/Header';
 import NavBar from './Components/NavBar/NavBar';
 import Footer from './Components/Footer/Footer';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import { HashRouter as Router, Route, Routes } from 'react-router-dom';
 
 import EpisodiesPage from './Pages/EpisodiesPage/EpisodiesPage';
 import CharactersPage from './Pages/CharactersPage/CharacterPage';
