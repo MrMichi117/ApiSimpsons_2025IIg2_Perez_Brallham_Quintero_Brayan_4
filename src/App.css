@@ -1,0 +1,64 @@
+@font-face {
+    font-family: 'Simpsonfont';
+    src: url('./assets/fonts/Simpsonfont.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Simpsonfont', 'Arial', sans-serif;
+    background-color: #fff8c6;
+    color: #000;
+}
+
+/* Títulos */
+h1,
+h2,
+h3 {
+    font-family: 'Simpsonfont', 'Arial Black', sans-serif;
+    color: #000;
+}
+
+/* Botones */
+button,
+.MuiButton-root {
+    font-family: 'Simpsonfont', 'Arial', sans-serif;
+    font-weight: bold;
+    background-color: #FFDE00;
+    color: #000;
+    border-radius: 6px;
+    transition: all 0.3s ease;
+}
+
+button:hover,
+.MuiButton-root:hover {
+    background-color: #fff176;
+    transform: scale(1.05);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.15);
+}
+
+/* Íconos personalizados */
+.icon-simpsons {
+    width: 32px;
+    height: 32px;
+    margin-right: 8px;
+    vertical-align: middle;
+}
+
+/* Responsive base */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 1.8rem;
+    }
+
+    h2 {
+        font-size: 1.4rem;
+    }
+
+    button {
+        font-size: 0.9rem;
+        padding: 8px 12px;
+    }
+}

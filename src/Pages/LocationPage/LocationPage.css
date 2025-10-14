@@ -1,0 +1,25 @@
+.location-page {
+    background-color: #fff8c6;
+    padding: 20px;
+    min-height: 100vh;
+}
+
+.location-title {
+    text-align: center;
+    color: #333;
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.location-loading {
+    text-align: center;
+    font-size: 1.2rem;
+    margin-top: 50px;
+}
+
+.location-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}

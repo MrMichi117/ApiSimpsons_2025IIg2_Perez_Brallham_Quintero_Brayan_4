@@ -1,0 +1,60 @@
+.episodes-page {
+    background-color: #fff8c6;
+    padding: 20px;
+    min-height: 100vh;
+}
+
+.episodes-title {
+    text-align: center;
+    color: #333;
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.search-bar {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.search-bar input {
+    padding: 8px 12px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    width: 60%;
+    max-width: 400px;
+    font-size: 1rem;
+}
+
+.season-filter {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.season-filter select {
+    padding: 8px 12px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    font-weight: bold;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+.episodes-loading {
+    text-align: center;
+    font-size: 1.2rem;
+    margin-top: 50px;
+}
+
+.episodes-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    justify-content: center;
+    align-items: start;
+}
+
+.episodes-wrapper {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}

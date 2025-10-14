@@ -1,0 +1,30 @@
+import './App.css';
+import Header from './Components/Header/Header';
+import NavBar from './Components/NavBar/NavBar';
+import Footer from './Components/Footer/Footer';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+
+import EpisodiesPage from './Pages/EpisodiesPage/EpisodiesPage';
+import CharactersPage from './Pages/CharactersPage/CharacterPage';
+import CharacterDetail from './Pages/CharactersPage/CharacterDetail';
+import LocationPage from './Pages/LocationPage/LocationPage';
+
+function App() {
+  return (
+    <Router>
+      <Header />
+      <div id='container-pages'>
+        <NavBar />
+        <Routes>
+          <Route path='/episodios' element={<EpisodiesPage />} />
+          <Route path='/personajes' element={<CharactersPage />} />
+          <Route path='/personaje/:id' element={<CharacterDetail />} />
+          <Route path='/localizacion' element={<LocationPage />} />
+        </Routes>
+        <Footer />
+      </div>
+    </Router>
+  );
+}
+
+export default App;
