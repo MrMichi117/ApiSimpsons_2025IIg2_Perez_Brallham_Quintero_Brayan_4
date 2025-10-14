@@ -3,14 +3,14 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://mrmichi117.github.io/ApiSimpsons_2025IIg2_Perez_Brallham_Quintero_Brayan/",
+  "homepage": "https://github.com/MrMichi117/ApiSimpsons_2025IIg2_Perez_Brallham_Quintero_Brayan_2.git",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+    "deploy": "gh-pages -d dist" 
   },
   "dependencies": {
     "@emotion/react": "^11.14.0",
