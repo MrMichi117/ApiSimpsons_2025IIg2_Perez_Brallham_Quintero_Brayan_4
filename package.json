@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://github.com/MrMichi117/ApiSimpsons_2025IIg2_Perez_Brallham_Quintero_Brayan_2.git",
+  "homepage": "/ApiSimpsons_2025IIg2_Perez_Brallham_Quintero_Brayan_2/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
